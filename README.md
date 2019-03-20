@@ -2,7 +2,7 @@
 
 This was part of my Engineering Education Scheme project which involved creating a node network of mobile nodes each with the capability of recording water depth data and sending it along the node to a base station.
 
-This is the final version of the project as it stands. The node.py is the python file that is flashed onto every node, each node has to have a specific tag that has to be hard coded in. The program is designed to be run on a microbit using micropython and requries no additional libraries.
+This is the final version of the project as it stands. The 'flex1c.py' is the python file that is flashed onto every node, each node has to have a specific tag that has to be hard coded in. The program is designed to be run on a microbit using micropython and requries no additional libraries. There is a specific 'flexbase.py'to run on the microbit connected to the computer, this requires the number of nodes present in the network but doesn't have a sensor.
 
 the log2graph.py and log2excel.py are run on the base computer. The base computer must be running teraterm, with the connection set to serial and 115200 baudrate, clicking the 'log' button located in 'file' you must rename the log file to 'teraterm.txt'. Then the two programs will work. The 'excel' script requires 'xlwt' which can be 'pip' installed and the 'graph' script requires 'matplotlib' which can also be 'pip' installed.
 
